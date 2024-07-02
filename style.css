@@ -1,0 +1,99 @@
+*{
+    text-decoration: none;
+}
+.navbar{
+    background-color: rgb(70, 82, 65); 
+    padding-right: 15px;  
+    padding-left: 15px;
+    letter-spacing: 5px;
+    display: table;
+}
+.navdiv{display: black;
+align-items: center;
+justify-content: space-between;
+}
+.logo a{
+    font-size: 15px; 
+    font-weight: bold; 
+    color: white; 
+    padding-left: 10PX; 
+    justify-items:first baseline; 
+    border: 10px;
+    display: grid;
+}
+li  {
+    list-style: none; 
+    display: inline-block;
+}
+li a{
+    color: white; 
+    font-size: 18px; 
+    font-weight: bold;
+    margin-top: 18px; 
+    display: flex;
+    justify-content: space-between;
+}
+
+  button{
+    border-radius: 20px;
+  }
+
+  .footer{
+    margin-top: 150px;
+    width: 100%;
+    padding: 100px;
+    background-color: black;
+    color: white;
+    display: flex;
+   
+}
+
+.footer div{
+    text-align: center;
+   
+}
+
+.col-1{
+    text-align: center;
+    flex-grow: 2;
+}
+
+.col-2{
+    flex-grow: 2;
+}
+
+.footer div h3{
+    font-weight: 200;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+}
+.col-2 a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    margin: bottom 10px; 
+
+}
+form input{
+    width: 350px;
+    height: 45px;
+    border-radius: 4px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    outline: none;
+    border: none;
+     
+}
+
+form button{
+    background-color: transparent;
+    color: white;
+    border: 2px solid #fff;
+    border-radius: 30px;
+    padding: 10px 30px;
+    font-size: 15px;
+    cursor: pointer;
+
+
+}
